@@ -25,7 +25,7 @@ int main() {
         root = insert(root, item); // Insert elements into BST
     }
 
-    printf("Inorder Traversal: ");
+    printf("Postorder Traversal: ");
     postorder(root);
     printf("\n");
 
